@@ -1,0 +1,479 @@
+body {
+    font-family: 'Segoe UI';
+    src: url('/surface/Assets/css/fonts/all/normal/segoeui.eot');
+    src: url('/surface/Assets/css/fonts/all/normal/segoeui.eot?#iefix') format('embedded-opentype'),
+         url('/surface/Assets/css/fonts/all/normal/segoeui.woff') format('woff'),
+         url('/surface/Assets/css/fonts/all/normal/segoeui.svg#SegoeUI') format('svg');
+    padding: 0;
+    margin: 0;
+    font-weight:bold;
+}
+
+/*Menu*/
+
+.navBottom {
+    flex-wrap: wrap;
+    display: flex;
+    float: right;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+    padding-bottom: 25px;
+}
+
+.navBottom a {
+    text-decoration: none;
+}
+
+.menuItem {
+    margin-right: 20px;
+    cursor: pointer;
+    color: #05668d;
+    text-shadow: 1.5px 1.5px 2px #f0f3bd, 0px 3px 3px #e29578;
+    font-weight: bold;
+    font-size:1.2em;
+    border-radius: 10px;
+    background: white;
+    opacity: 0.8;
+    border: solid white 0.2px;
+    padding: 1px 1px 1px 1px;
+  }
+  
+.menuItem:hover {
+    background: white;
+    color: black;
+    opacity:0.8;
+  }
+
+/* Bouton up */
+
+#scrollUp
+  {
+  position: fixed;
+  bottom : 10px;
+  right: -100px;
+  opacity: 0.5;
+  }
+
+
+
+h1{
+    text-align: center;
+    font-family: Flowers Kingdom;
+    color:white;
+    text-shadow: 3px 3px rgb(92, 92, 92);
+}
+
+h2{
+    text-align: center;
+    font-size:1.8em;
+    font-family: 'Segoe UI';
+    src: url('/surface/Assets/css/fonts/all/normal/segoeui.eot');
+    src: url('/surface/Assets/css/fonts/all/normal/segoeui.eot?#iefix') format('embedded-opentype'),
+         url('/surface/Assets/css/fonts/all/normal/segoeui.woff') format('woff'),
+         url('/surface/Assets/css/fonts/all/normal/segoeui.svg#SegoeUI') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h3{
+    text-align: center;
+    font-size:1.5em;
+    font-family: 'Segoe UI';
+    src: url('/surface/Assets/css/fonts/all/normal/segoeui.eot');
+    src: url('/surface/Assets/css/fonts/all/normal/segoeui.eot?#iefix') format('embedded-opentype'),
+         url('/surface/Assets/css/fonts/all/normal/segoeui.woff') format('woff'),
+         url('/surface/Assets/css/fonts/all/normal/segoeui.svg#SegoeUI') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h4{
+    text-align: center;
+    font-size:1.2em;
+    font-family: 'Segoe UI';
+    src: url('/surface/Assets/css/fonts/all/normal/segoeui.eot');
+    src: url('/surface/Assets/css/fonts/all/normal/segoeui.eot?#iefix') format('embedded-opentype'),
+         url('/surface/Assets/css/fonts/all/normal/segoeui.woff') format('woff'),
+         url('/surface/Assets/css/fonts/all/normal/segoeui.svg#SegoeUI') format('svg');
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+/* section 1*/
+
+.top{
+    background-image: url("Images/annie-spratt-qyAka7W5uMY-unsplash2.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.logo{
+    margin-right: 200px;
+    float: left;
+}
+
+.texte_logo{
+    margin-right: 200px;
+    margin-left: 400px;
+    float: none;
+}
+
+.titre{
+    text-align: center;
+    font-size: 2.2em;
+    color:white;
+    font-family: 'Segoe UI';
+    text-shadow: 3px 3px 1px #e29578;
+    src: url('/surface/Assets/css/fonts/all/normal/segoeui.eot');
+    src: url('/surface/Assets/css/fonts/all/normal/segoeui.eot?#iefix') format('embedded-opentype'),
+         url('/surface/Assets/css/fonts/all/normal/segoeui.woff') format('woff'),
+         url('/surface/Assets/css/fonts/all/normal/segoeui.svg#SegoeUI') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    margin-left:170px;
+    margin-right:170px;
+    margin-bottom:60px;
+    padding: 20px 190px 30px 190px;
+}
+
+
+/* section 2 */
+
+.presentation_jeu{
+    background-color: #00a896;
+    background-image: linear-gradient(#00a896, #02c39a);
+    color:white;
+    text-shadow: 1px 1px rgb(80, 79, 79);
+    text-align: center;
+    font-family: 'Segoe UI';
+    src: url('/surface/Assets/css/fonts/all/normal/segoeui.eot');
+    src: url('/surface/Assets/css/fonts/all/normal/segoeui.eot?#iefix') format('embedded-opentype'),
+         url('/surface/Assets/css/fonts/all/normal/segoeui.woff') format('woff'),
+         url('/surface/Assets/css/fonts/all/normal/segoeui.svg#SegoeUI') format('svg');
+    font-weight: 450;
+    font-style: normal;
+    margin-left:10px;
+    margin-right:10px;
+    padding: 5px 50px 100px 50px;
+}
+
+.jeu{
+    padding: 20px 50px 50px 30px;   
+}
+
+.boitejeu{
+    padding: 20px 5px 20px 5px;
+    margin-top: -50px;
+    float:left;
+}
+
+.jeu:hover .boitejeusize{
+    width: 600px;
+    transition: width 2s;
+}
+.jeu:hover .textejeu{
+    transform: translate(60px, 0px);
+    transition : 2s;
+}
+
+.textejeu{
+    text-align: center;
+    font-size:1.1em;
+    border : solid 6px #f0f3bd;
+    border-radius: 10px;
+    padding : 2px 5px 2px 5px;
+    margin-left: 600px;
+    margin-right: 0px;
+    box-sizing: border-box;
+}
+
+
+.sinusoide1{
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom:100px;
+    position: relative;
+}
+
+
+/* Images des cartes */ 
+
+.section_cartes{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    margin-left:10px;
+    margin-right:10px;
+    border:solid 8px #028090;
+    border-radius:15px;
+    padding-bottom: 30px;
+}
+
+.img_cartes{
+    display: flex;
+    margin-left: 220px;
+    margin-right: 200px;
+    padding: 20px 20px 20px 20px;
+}
+.imgcarte1{
+    background-image: url("Images/egypte_verso.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 210px;
+    width : 300px;
+    height: 500px;
+    box-sizing: content-box;
+}
+.imgcarte1:hover{
+    transform: rotateY(360deg);
+    transition: 3s;  
+    background-image: url("Images/egypte_recto.png");
+    background-size: 98%;  
+}
+.imgcarte2{
+    background-image: url("Images/story_verso.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width : 300px;
+    height: 500px;
+    box-sizing: content-box;
+}
+.imgcarte2:hover{
+    transform: rotateY(360deg);
+    transition: 3s;  
+    background-image: url("Images/story_recto.png");
+    background-size: 98%;
+}
+.n_carte{
+    visibility: hidden;
+}
+
+
+.sinusoide2{
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:100px;
+    margin-bottom:-10px;
+}
+
+
+/* Règles du jeu */
+
+.presentationprincipe{
+    background-color: #02C39A;
+    background-image: linear-gradient(#02C39A, #00a896);
+    color:white;
+    text-shadow: 1px 1px rgb(80, 79, 79);
+    text-align: center;
+    font-family: 'Segoe UI';
+    src: url('/surface/Assets/css/fonts/all/normal/segoeui.eot');
+    src: url('/surface/Assets/css/fonts/all/normal/segoeui.eot?#iefix') format('embedded-opentype'),
+         url('/surface/Assets/css/fonts/all/normal/segoeui.woff') format('woff'),
+         url('/surface/Assets/css/fonts/all/normal/segoeui.svg#SegoeUI') format('svg');
+    font-weight: 450;
+    font-style: normal;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom:100px;
+    padding: 10px 50px 50px 50px;
+}
+
+
+.shema_regles_jeu{
+    margin-left: 620px;
+
+}
+
+.texte_regles_jeu{
+    text-align: justify;
+    text-indent: 40px;
+    font-size:1.1em;
+    border : solid 6px #f0f3bd;
+    border-radius:10px;
+    padding : 10px 40px 10px 40px;
+    margin-top : -535px;
+    margin-right: 600px;
+
+
+}
+
+
+.Presensation_equipe{
+    text-align: center;
+    margin-left:10px;
+    margin-right:10px;
+    border:solid 4px #028090;
+    border-radius:10px;
+    padding-bottom:50px;
+}
+
+.faq_titre{
+    margin-top: 100px;
+}
+
+.faq{
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+
+.liste_questions{
+    padding: 15px 5px 10px 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #00a896;
+    border: 1px solid black;
+    color: #f0f3bd;
+    text-shadow: 1px 1px rgb(48, 47, 47);
+    font-size: 1em;
+    font-family: 'Segoe UI';
+    src: url('/surface/Assets/css/fonts/all/normal/segoeui.eot');
+    src: url('/surface/Assets/css/fonts/all/normal/segoeui.eot?#iefix') format('embedded-opentype'),
+         url('/surface/Assets/css/fonts/all/normal/segoeui.woff') format('woff'),
+         url('/surface/Assets/css/fonts/all/normal/segoeui.svg#SegoeUI') format('svg');
+    border-radius: 15px;
+    width: 500px;
+    height: 300px;
+    box-sizing: border-box;
+    font-style:italic;
+}
+
+.question{
+    color:white;
+    text-shadow: 1px 1px rgb(80, 79, 79);
+    font-size: 1.1em;
+    font-family: 'Segoe UI';
+    src: url('/surface/Assets/css/fonts/all/normal/segoeui.eot');
+    src: url('/surface/Assets/css/fonts/all/normal/segoeui.eot?#iefix') format('embedded-opentype'),
+         url('/surface/Assets/css/fonts/all/normal/segoeui.woff') format('woff'),
+         url('/surface/Assets/css/fonts/all/normal/segoeui.svg#SegoeUI') format('svg');
+    font-weight: 600;
+    font-style:normal;
+
+}
+
+
+.CSLP{
+    text-align: center;
+    margin-left:10px;
+    margin-right:10px;
+    border:solid 8px #028090;
+    border-radius:15px;
+    padding-bottom:50px;
+    padding: 25px 25px 25px 25px;
+}
+
+.ImageGoodies{
+    border:solid 5px #028090;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    padding: 5px 5px 5px 5px;
+    margin: 30px 50px 30px 50px;
+    border-radius:10px;
+}
+
+
+.objectifs{
+    padding: 15px 5px 10px 5px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 140px;
+    margin-right: 140px;
+    background: #00a896;
+    border: 1px solid black;
+    color: white;
+    text-shadow: 1px 1px rgb(48, 47, 47);
+    font-size: 1em;
+    font-family: 'Segoe UI';
+    src: url('/surface/Assets/css/fonts/all/normal/segoeui.eot');
+    src: url('/surface/Assets/css/fonts/all/normal/segoeui.eot?#iefix') format('embedded-opentype'),
+         url('/surface/Assets/css/fonts/all/normal/segoeui.woff') format('woff'),
+         url('/surface/Assets/css/fonts/all/normal/segoeui.svg#SegoeUI') format('svg');
+    border-radius: 15px;
+    width: 1000px;
+    height: 250px;
+    box-sizing: border-box;
+}
+
+.contact{
+    background-color: #02C39A;
+    background-image: linear-gradient(#02C39A, #00a896);
+    color:white;
+    text-shadow: 1px 1px rgb(80, 79, 79);
+    text-align: center;
+    font-family: 'Segoe UI';
+    src: url('/surface/Assets/css/fonts/all/normal/segoeui.eot');
+    src: url('/surface/Assets/css/fonts/all/normal/segoeui.eot?#iefix') format('embedded-opentype'),
+         url('/surface/Assets/css/fonts/all/normal/segoeui.woff') format('woff'),
+         url('/surface/Assets/css/fonts/all/normal/segoeui.svg#SegoeUI') format('svg');
+    font-weight: 450;
+    font-style: normal;
+
+}
+.final {
+    background-color: #696969;
+    
+}
+.final2 {
+    background-color: black;
+}
+
+
+.bouton_achat{
+    cursor: pointer;
+    color: #05668d;
+    text-shadow: 1.5px 1.5px 2px #f0f3bd, 0px 3px 3px #e29578;
+    font-weight: bold;
+    font-size:1.2em;
+    border-radius: 10px;
+    background: white;
+    opacity: 0.8;
+    border: solid black 0.2px;
+    padding: 1px 1px 1px 1px;
+}
+
+.bouton_achat:hover {
+    background: #05668d;
+    color:white;
+    text-shadow: 1.5px 1.5px 2px black;
+    opacity:0.8;
+  }
+
+
+.soutien{
+    margin-bottom: 100px;
+    animation-name: animation_soutien;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation_soutien {
+        from{font-size:1.5em}
+        to{font-size: 1.6em}
+}
+
+
+.image_fin {
+        margin-bottom: 100px;
+        animation-name: image_fin;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+     
+}
+
+@keyframes image_fin{
+    from{width: 155px}
+    fo{width: 160px}
+}
+
